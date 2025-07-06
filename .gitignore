@@ -1,0 +1,25 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environment folders
+env/
+venv/
+
+# Ignore model files (only if using Git LFS)
+*.h5
+*.hdf5
+
+# Ignore dataset files (optional)
+*.zip
+*.tar.gz
+*.nii
+*.nii.gz
+*.csv
+
+# Ignore VS Code settings (optional)
+.vscode/
